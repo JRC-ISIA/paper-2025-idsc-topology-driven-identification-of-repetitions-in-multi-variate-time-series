@@ -27,7 +27,7 @@ t = np.linspace(0, 4*np.pi, 200)
 x = np.sin(t)
 
 detector = CycleDetection('repetitive', epsilon=0.2, delta=0.7, x_start=0,
-				          delay=10, embedding_length=2).predict(x)
+				          delay=10, embedding_length=2)
 tau = detector.predict(x)
 print(tau)
 detector.plot()
