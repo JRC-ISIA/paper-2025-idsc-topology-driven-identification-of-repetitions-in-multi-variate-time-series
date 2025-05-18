@@ -1,4 +1,4 @@
-## Official implementation of ["Topology-driven identification of repetitions in multi-variate time series"](arXiv).
+## Official implementation of ["Topology-driven identification of repetitions in multi-variate time series"](https://arxiv.org/abs/2505.10004).
 
 > **Abstract:** 
 > Many multi-variate time series obtained in the natural sciences and engineering possess a repetitive behavior, as for instance statespace trajectories of industrial machines in discrete automation. 
@@ -42,5 +42,7 @@ detector.plot()
   author        = {Schindler, Simon and Reich, Elias Steffen and Messineo, Saverio and Huber, Stefan},
   booktitle     = Proc # " 7th " # iDSC # " (iDSC'25)",
   year          = {2025},
+  note          = {accepted},
+  url           = {https://arxiv.org/abs/2505.10004}
 }
 ```
